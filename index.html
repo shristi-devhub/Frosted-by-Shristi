@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>Frosted by Shristi</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <header class="navbar">
+            <h2>🍰 Frosted by shristi</h2>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#cakes">Cakes</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+                <button id="darkModeButton">🌙</button>
+              </nav>
+            </header>
+            <!--HERO SECTION-->
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2>Freshly Baked Happiness</h2>
+                    <p>Turning moments into delicious memories</p>
+                    <a href="#" class="btn"> Explore Menu</a>
+                </div>
+            </section>
+            <!--HIGLIGHT SECTION-->
+            <section class="highlights">
+                <h2> Why Choose Us?</h2>
+                <div class="highlight-boxes">
+                    <div class="box">
+                        <h3>fresh Ingridents</h3>
+                        <p> We use only  premium quality fresh ingridents</p>
+                    </div>
+                    <div class="box">
+                        <h3>Custom Cakes</h3>
+                        <p>Choose flavour, size and design of your choice.</p>
+                    </div> 
+                    <div class="box">
+                        <h3>Fast Delivery</h3>
+                        <p>Fresh cakes delivered within hours.</p>
+                    </div>            
+            </section>
+            <section class="featured">
+                <h2>Featured Cakes</h2>
+                <h4>Our most loved cakes,freshly baked everyday.</h4>
+            </section>
+    <section id="menu" class="cake-filters">
+    <h2>Browse Cakes 🍰</h2>
+    <p class="section-subtitle">
+        Pick your favourite flavour
+    </p>
+    <div class="filter-buttons">
+        <button onclick="filterCake('all')">
+            🎂 All Cakes
+        </button>
+        <button onclick="filterCake('chocolate')">
+            🍫 Chocolate
+        </button>
+        <button onclick="filterCake('vanilla')">
+            🍦 Vanilla
+        </button>
+        <button onclick="filterCake('redVelvet')">
+            ❤️ Red Velvet
+        </button>
+    </div>
+</section>
+<section id="cakes">
+            <section class="chocolate-section">
+                <h2 class="section-subtitle">Chocolate Delights</h2>
+                <div class="cake-grid">
+                    <!--CAKE 1-->
+                    <div class="cake chocolate">
+                        <img src="choco1.jpg" alt="Chocolate trufle Cake">
+                        <h3>Chocolate Truffle</h3>
+                        <p>Rich dark chocolate layered cake</p>
+                        <span>Rs 699</span>
+                    </div>
+                    <div class="cake chocolate">
+                        <img src="choco2.jpg" alt="Chocolate Lava Cake">
+                        <h3>Chocolate lava Cake </h3>
+                        <p>Warm molten chocolate inside soft Cake</p>
+                        <span>Rs 899</span>
+                    </div>
+                    <div class="cake chocolate">
+                        <img src="choco3.jpeg" alt="Dark Chocolte Cake">
+                        <h3>dark Chocolate Delight</h3>
+                    <p>Strong cocoa flavor with creamy frosting</p>
+                    <span>Rs 799</span>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vanilla-section">
+                <h2 class="section-subtitle">Vanilla Cakes</h2>
+                <div class="cake-grid">
+                    <!--CAKE 2-->
+                    <div class="cake vanilla">
+                        <img src="vanilla1.jpeg" alt="Classic Vanilla Cake">
+                        <h3>Classic Vanilla</h3>
+                        <p>Soft sponge cake with light creamy frosting</p>
+                        <span class="price">Rs 499</span>
+                    </div>
+                    <div class="cake vanilla">
+                        <img src="vanilla2.jpeg" alt="Vanilla Berry  Cake">
+                        <h3>Vanilla Berry Delight</h3>
+                        <p>Vanilla cake topped with fresh berries</p>
+                        <span class="price">Rs 599</span>
+                    </div>
+                    <div class="cake vanilla">
+                        <img src="vanilla3.jpeg" alt="ButterscotchVanilla Cake">
+                        <h3>Butterscotch Vanilla</h3>
+                        <p>Crunchy butterscotch with soft vanilla layers</p>
+                        <span class="price">Rs 599</span>
+                    </div>
+                </div>
+            </section>
+            <section class="red-velvet-section">
+                <h2 class="section-subtitle">Red Velvet Romance</h2>
+                <div class="cake-grid">
+                    <!--CAKE 3-->
+                    <div class="cake redVelvet">
+                        <img src="RedVelvet1.jpeg" alt="Classic Red Velvet Cake">
+                        <h3>Classic Red Velvet</h3>
+                        <p>Soft red sponge with creamy cheese frosting</p>
+                        <span class="price">Rs 799</span>
+                    </div>
+                    <div class="cake redVelvet">
+                        <img src="RedVelvet2.jpeg" alt="Red Velvet Heart Cake">
+                        <h3>Red Velvet Heart</h3>
+                        <p>Heart-shaped cake perfect for celebrations</p>
+                        <span class="price">Rs 699</span>
+                    </div>
+                    <div class="cake redVelvet">
+                        <img src="VelvetJar.jpeg" alt="Red Velvet Jar Cake">
+                        <h3>Red Velvet Jar Cake</h3>
+                        <p>Layered mini jar dessert perfect for quick cravings</p>
+                        <span class="price">Rs 299</span>
+                    </div>
+                </div>
+            </section>
+            <section class="cheesecake-section">
+                <h2 class="section-subtitle">Cheesecake Delight</h2>
+                <div class="cake-grid">
+                    <!--CAKE 4-->
+                    <div class="cake cheesecake">
+                        <img src="cheesecake1.jpeg" alt="Lotus Biscoff Cheesecake">
+                        <h3>Lotus Biscoff Cheesecake</h3>
+                        <p>Creamy cheesecake layered with crunchy Biscoff with crunchy Biscoff biscuit base</p>
+                        <span class="price">Rs 899</span>
+                    </div>
+                    <div class="cake cheesecake">
+                        <img src="cheesecake2.jpeg" alt="Blueberry Cheesecake">
+                        <h3>Blueberry Cheesecake</h3>
+                        <p> Soft creamy cheesecake topped with blueberry glaze </p>
+                        <span class="price">Rs 799</span>
+                    </div>
+                    <div class="cake cheesecake">
+                        <img src="cheesecake4.jpeg" alt="New York Cheesecake">
+                        <h3>New York Cheesecake</h3>
+                        <p>Rich and dense cheesecake with rich Vanilla flavor</p>
+                        <span class="price">Rs 899</span>
+                    </div>
+                </div>
+            </section>
+            <section class="speciality-section">
+                <h2>Our Special Edition</h2>
+                <p class="section-subtitle">unique handcrafted flavors made specially for unforgettable celebrations</p>
+                <div class="cake-grid">
+                    <div class="cake speciality">
+                        <img src="rasmalai.jpeg" alt="Rasmalai Cake">
+                        <h3>Rasmalai Cake</h3>
+                        <p>A rich saffron  flavoured cake inspired by traditional indian rasmalai</p>
+                        <span class="price">Rs 999</span>
+                    </div>
+                    <div class="cake speciality">
+                        <img src="fruit.jpeg" alt="Fruit Cake">
+                        <h3>Fruit Cake</h3>
+                        <p>A refreshing fruit-flavored cake perfect for any occasion</p>
+                        <span class="price">Rs 899</span>
+                    </div>
+                    <div class="cake speciality">
+                        <img src="kitkat.jpeg" alt="KitKat Cake">
+                        <h3>KitKat Cake</h3>
+                        <p>A delicious cake infused with the flavors of KitKat bars</p>
+                        <span class="price">Rs 999</span>
+                    </div>
+                </div>
+            </section>
+            <!-- SWEET TREATS SECTION -->
+<section class="sweet-treats">
+ <h2>Sweet Treats</h2>
+ <p class="section-subtitle">Freshly baked little delights perfect for every sweet craving</p>
+    <div class="cake-grid">
+    <div class="cake">
+        <img src="cupcake.jpeg" alt="Cupcake">
+        <h3>Cupcakes</h3>
+        <p>Soft and fluffy cupcakes in a variety of flavors</p>
+        <span class="price">Rs 120</span>
+    </div>
+    <div class="cake">
+        <img src="browine.jpeg" alt="Brownie">
+        <h3>Brownies</h3>
+        <p>Rich and fudgy brownies with a gooey center</p>
+        <span class="price">Rs 299</span>
+    </div>
+    <div class="cake">
+        <img src="cookie.jpeg" alt="Cookies">
+        <h3>Cookies</h3>
+        <p>Crunchy on the outside, chewy on the inside cookies </p>
+        <span class="price">Rs 149</span>
+    </div>
+    </section>
+    </section>
+<section id="order">
+<h2>Place Your Order</h2>
+<p class="section-subtitle">Fill in your details and we will bake happiness for you</p>
+<form>
+ <input type="text" placeholder="Your Name">
+ <input type="text" placeholder="Phone Number">
+ <input type="text" placeholder="Delivery Address">
+ <select>
+     <option>Chocolate Cake</option>
+     <option>Vanilla Cake</option>
+     <option>Red Velvet Cake</option>
+     <option>Cheesecake</option>
+     <option>Special Edition</option>
+ </select>
+ <button type="submit">Order Now</button>
+</form>
+</section>
+<button id="topBtn">🚀</button> 
+<script src="script.js"></script>
+</body>
+</html>
