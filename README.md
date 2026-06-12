@@ -15,9 +15,7 @@ Frosted by Shristi is a modern bakery website developed using HTML, CSS, and Jav
 
 ## Technologies Used
 
-* HTML5[style.css](https://github.com/user-attachments/files/28884965/style.css)
-[index.html](https://github.com/user-attachments/files/28884931/index.html)
-
+* HTML5
 * CSS3
 * JavaScript
 
